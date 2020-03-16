@@ -138,6 +138,10 @@ Install string for installing the Horizon Agent as unmanaged and register to a c
 
 `VMware-Horizon-Agent-x86_64-7.12.0-15579917.exe /s /v” /qn VDM_VC_MANAGED_AGENT=0 VDM_SERVER_NAME=<connserver> VDM_SERVER_USERNAME=<domain\username> VDM_SERVER_PASSWORD=<pw>”`
 
+#### Tips
+
+- Windows 7 may work with the RDP protocol
+
 #### Demo
 
 Coming...
