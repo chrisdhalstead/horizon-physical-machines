@@ -35,7 +35,7 @@ This app is used to quickly add physical machines that have a Horizon client ins
 
 2. Enter the Horizon Connection Server FQDN and click Connect
 
-   ![Login](C:\Users\chalstead\Pictures\Login.PNG)
+   ![Login](Images/Login.PNG)
 
    
 
