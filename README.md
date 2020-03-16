@@ -41,7 +41,7 @@ This app is used to quickly add physical machines that have a Horizon client ins
 
 - .NET Framework 4.6.1 or later
 - Windows Operating System
-- Horizon 7.7 or later 
+- Horizon 7.7 or later (Official Horizon support added - prior versions may work just not supported)
 - Admin Credentials to Horizon Connection Server
 
 #### Usage
