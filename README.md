@@ -133,3 +133,5 @@ Coming...
 
 - 1.0 - March 15, 2020 
   - Initial Release
+- 1.1 - March 16, 2020
+  - Fixed an issue where the CSV contains the quote character - if found, remove it.
