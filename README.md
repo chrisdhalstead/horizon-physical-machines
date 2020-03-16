@@ -8,6 +8,8 @@ chalstead@vmware.com
 Twitter: @chrisdhalstead
 March 15, 2020
 
+Tons of thanks to Andrew Morgan @andyjmorgan for collaboration on this process.
+
 #### Overview
 
 This app is used to quickly add physical machines that have a Horizon client installed and registered to a connection server to a manual pool and entitle the desktop and pool.   The app reads from a .csv file and checks to see if the specific machine is available and if so it adds it to the selected pool.  The app can be used to create a manual pool to use with unregistered machines.  
