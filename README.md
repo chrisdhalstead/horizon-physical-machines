@@ -41,13 +41,13 @@ This app is used to quickly add physical machines that have a Horizon client ins
 
 3. Enter Username, Password and Domain and Click OK - the first time you connect you will be asked to accept the certificate on the Horizon server
 
-   ![cert](C:\Users\chalstead\Pictures\cert.PNG)
+   ![cert](Images/cert.PNG)
 
    
 
 4. If you have no manual pools that are configured for unmanaged machines - you will see the following prompt:
 
-   ![Pool](C:\Users\chalstead\Pictures\Pool.PNG)
+   ![Pool](Images/Pool.PNG)
 
    
 
@@ -56,13 +56,13 @@ This app is used to quickly add physical machines that have a Horizon client ins
 
 5. Enter a Pool Name, and optionally a display name.  This is what users will see if the Horizon Client.  If you leave it blank, users will see the name of the pool.  Select a default protocol (users will be able to change on the client), select an access group and choose if you would like HTML access and Session Collaboration (Blast only).   Click ok to create the pool.   Click OK twice to confirm pool creation and on the box to show the pool is complete.  
 
-   ![CreatePool](C:\Users\chalstead\Pictures\CreatePool.PNG)
+   ![CreatePool](Images/CreatePool.PNG)
 
-   ![PoolCreated](C:\Users\chalstead\Pictures\PoolCreated.PNG)
+   ![PoolCreated](Images/PoolCreated.PNG)
 
    You will now see the pool under Pool Name - this dropdown will show all manual pools that are configured for unmanaged machines
 
-   In the Horizon Console, you can identify pools created by this tool by looking at the description.![Desc](C:\Users\chalstead\Pictures\Desc.PNG)
+   In the Horizon Console, you can identify pools created by this tool by looking at the description.![Desc](Images/Desc.PNG)
 
 6. Create .CSV File 
 
@@ -71,21 +71,21 @@ This app is used to quickly add physical machines that have a Horizon client ins
       1. Header Line:  Machine,User
       2. Data: mydesktop,domain\user
 
-   <img src="C:\Users\chalstead\Pictures\csv.PNG" alt="csv" style="zoom:150%;" />Sample of CSV File
+   <img src="Images/csv.PNG" alt="csv" style="zoom:150%;" />Sample of CSV File
 
 7. Import CSV file
 
    1. Click the "Import Mappings from .CSV button" - select the .CSV and click Open.  There are several validations that happen during the import process.  There is a maximum of 2000 items that can be imported at a time.  2000 is the maximum size of a pool in Horizon, so if you have more that 2000 devices to import them should be broken up into .csv files of less that 2000 each.
 
-   ![import_CSV](C:\Users\chalstead\Pictures\import_CSV.PNG)
+   ![import_CSV](Images/import_CSV.PNG)
 
-   ![Imported](C:\Users\chalstead\Pictures\Imported.PNG)
+   ![Imported](Images/Imported.PNG)
 
    
 
 8. Once you have imported the data you are ready to add the machines to the selected pool and entitle them.  Click "Add Machines and Entitle".  Click yes on the message box to start the process.  The listview will be updated live as action are done in Horizon 
 
-   ![ImportedMachines](C:\Users\chalstead\Pictures\ImportedMachines.PNG)
+   ![ImportedMachines](Images/ImportedMachines.PNG)
 
    You will see the success or failure of the following actions:
 
@@ -95,21 +95,21 @@ This app is used to quickly add physical machines that have a Horizon client ins
 
 9. The process is finished - you can view the log file to see exactly what happened.   It is called Horizon_Manual[date].log.  It is located in the %temp% directory.
 
-   ![Log](C:\Users\chalstead\Pictures\Log.PNG)
+   ![Log](Images/Log.PNG)
 
    
 
 10. The actions can also be verified in the Horizon Console
 
-    ![Horizon_Pool](C:\Users\chalstead\Pictures\Horizon_Pool.PNG)
+    ![Horizon_Pool](Images/Horizon_Pool.PNG)
 
-    ![Horizon_ents](C:\Users\chalstead\Pictures\Horizon_ents.PNG)
+    ![Horizon_ents](Images/Horizon_ents.PNG)
 
     
 
 11. You can view Pool Details by clicking the Pool Details 
 
-    ![PoolDetails](C:\Users\chalstead\Pictures\PoolDetails.PNG)
+    ![PoolDetails](Images/PoolDetails.PNG)
 
     
 
