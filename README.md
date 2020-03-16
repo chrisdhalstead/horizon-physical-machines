@@ -1,6 +1,8 @@
 # horizon-physical-machines
 App to quickly add Physical Machines into VMware Horizon Manual Pool
 
+There is no direct support for this tool - it is provided as is.
+
 Please provide any feedback directly to me - my contact information: 
 
 Chris Halstead
@@ -9,6 +11,17 @@ Twitter: @chrisdhalstead
 March 15, 2020
 
 Tons of thanks to Andrew Morgan @andyjmorgan for collaboration on this process.
+
+#### Change Log
+
+- 1.0 - March 15, 2020 
+  - Initial Release
+- 1.1 - March 16, 2020
+  - Fixed an issue where the CSV contains the quote character - if found, remove it.
+- 1.2 - March 16, 2020
+  - Prevent a user from being assigned two machines in a pool
+  - Fix some API queries that sometimes caused 400 errors
+  - Other UI fixes
 
 #### Overview
 
@@ -128,10 +141,3 @@ Install string for installing the Horizon Agent as unmanaged and register to a c
 #### Demo
 
 Coming...
-
-#### Change Log
-
-- 1.0 - March 15, 2020 
-  - Initial Release
-- 1.1 - March 16, 2020
-  - Fixed an issue where the CSV contains the quote character - if found, remove it.
