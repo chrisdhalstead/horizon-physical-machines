@@ -28,7 +28,7 @@ Tons of thanks to Andrew Morgan @andyjmorgan for collaboration on this process.
     - 2000 is the maximum that can be returned (no pagination support).  
     - The 7.12 REST API may be able to return more - looking into that as a option
   - Persist connection server name, username and domain name in the registry
-  - Adding more log entries
+  - More logging detail
   - Optimized adding machines and entitlements 
   - UI Fixes
   - Hid Pool Details dialog as results were inconsistent across versions of Horizon 
@@ -38,6 +38,8 @@ Tons of thanks to Andrew Morgan @andyjmorgan for collaboration on this process.
 This app is used to quickly add physical machines that have a Horizon agent installed and registered to a connection server to a manual pool and entitle the desktop and pool.   The app reads from a .csv file and checks to see if the specific machine is available and if so it adds it to the selected pool.  The app can be used to create a manual pool to use with unregistered machines.  
 
 if you are processing many machines, it would be recommended to setup a dedicated connection server in the pod if you can to run these processes against so other servers are not affected.  
+
+Please review the logfile that was created after an import - there are lots of details on what was done
 
 #### Features
 
