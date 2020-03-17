@@ -5,9 +5,9 @@ There is no direct support for this tool - it is provided as is.
 
 Please provide any feedback directly to me - my contact information: 
 
-Chris Halstead - chalstead@vmware.com
-
-Twitter: @chrisdhalstead
+Chris Halstead - Staff Architect, VMware  
+Email: chalstead@vmware.com  
+Twitter: @chrisdhalstead  
 
 March 15, 2020
 
