@@ -25,12 +25,13 @@ Tons of thanks to Andrew Morgan @andyjmorgan for collaboration on this process.
 - 1.3 - March 17, 2020
   - Fix when usernames are similar (ex chalstead and chalstead-adm) - before it would grab the first one that matched (chalstead in this case) causing issues
   - Cache 2000 domain users to speed up entitlement 
-    - 2000 is the maximum that can be returned.  The 7.12 REST API may be able to return more - looking into that as a option
+    - 2000 is the maximum that can be returned (no pagination support).  
+    - The 7.12 REST API may be able to return more - looking into that as a option
   - Persist connection server name, username and domain name in the registry
   - Adding more log entries
   - Optimized adding machines and entitlements 
   - UI Fixes
-  - Hit Pool Details dialog as results were inconsistent across versions of Horizon 
+  - Hid Pool Details dialog as results were inconsistent across versions of Horizon 
 
 #### Overview
 
