@@ -149,6 +149,8 @@ Install string for installing the Horizon Agent as unmanaged and register to a c
 #### Tips
 
 - Windows 7 may work with the RDP protocol
+  - Connecting to View desktops using RDP protocol fails with the error code 2825 
+    -  https://kb.vmware.com/s/article/1034158
 
 #### Demo
 
