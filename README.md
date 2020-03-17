@@ -22,10 +22,21 @@ Tons of thanks to Andrew Morgan @andyjmorgan for collaboration on this process.
   - Prevent a user from being assigned two machines in a pool
   - Fix some API queries that sometimes caused 400 errors
   - Other UI fixes
+- 1.3 - March 17, 2020
+  - Fix when usernames are similar (ex chalstead and chalstead-adm) - before it would grab the first one that matched (chalstead in this case) causing issues
+  - Cache 2000 domain users to speed up entitlement 
+    - 2000 is the maximum that can be returned.  The 7.12 REST API may be able to return more - looking into that as a option
+  - Persist connection server name, username and domain name in the registry
+  - Adding more log entries
+  - Optimized adding machines and entitlements 
+  - UI Fixes
+  - Hit Pool Details dialog as results were inconsistent across versions of Horizon 
 
 #### Overview
 
-This app is used to quickly add physical machines that have a Horizon client installed and registered to a connection server to a manual pool and entitle the desktop and pool.   The app reads from a .csv file and checks to see if the specific machine is available and if so it adds it to the selected pool.  The app can be used to create a manual pool to use with unregistered machines.  
+This app is used to quickly add physical machines that have a Horizon agent installed and registered to a connection server to a manual pool and entitle the desktop and pool.   The app reads from a .csv file and checks to see if the specific machine is available and if so it adds it to the selected pool.  The app can be used to create a manual pool to use with unregistered machines.  
+
+if you are processing many machines, it would be recommended to setup a dedicated connection server in the pod if you can to run these processes against so other servers are not affected.  
 
 #### Features
 
@@ -35,7 +46,6 @@ This app is used to quickly add physical machines that have a Horizon client ins
 - Logging and Error Trapping
 - Manual Pool Creation
 - Shows live progress
-- View Pool Details
 
 #### Pre-Requisites
 
@@ -122,13 +132,7 @@ This app is used to quickly add physical machines that have a Horizon client ins
 
     
 
-11. You can view Pool Details by clicking the Pool Details 
-
-    ![PoolDetails](Images/PoolDetails.PNG)
-
-    
-
-12. Additional manual pools can be created at any time by clicking the "Create Manual Pool" Button.
+11. Additional manual pools can be created at any time by clicking the "Create Manual Pool" Button.
 
 #### **Installing Horizon Agent on Physical**
 
