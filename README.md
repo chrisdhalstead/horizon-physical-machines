@@ -33,6 +33,12 @@ Tons of thanks to Andrew Morgan @andyjmorgan for collaboration on this process.
   - Optimized adding machines and entitlements 
   - UI Fixes
   - Hid Pool Details dialog as results were inconsistent across versions of Horizon 
+- 1.4 - March 17, 2020
+  - Fixed "An item with the same key has already been added" error
+  - Generate the new machine name Base64 value directly without making an expensive API call
+    - After added to pool
+  - Fixed AD Caching - note:  It will pause for 3 seconds while that query is run
+  - If a user is not found, but the desktop is - the desktop will be added to the pool
 
 #### Overview
 
