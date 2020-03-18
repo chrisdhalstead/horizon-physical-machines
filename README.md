@@ -24,7 +24,9 @@ Tons of thanks to Andrew Morgan @andyjmorgan for collaboration on this process.
 
 #### Demo / Walkthrough
 
-[![](.\images\Login.PNG)](https://www.youtube.com/watch?v=tqlcWbuBRrs)
+Opens in YouTube
+
+[![](images/Login.PNG)](https://www.youtube.com/watch?v=tqlcWbuBRrs)
 
 #### Overview
 
