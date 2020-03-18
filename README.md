@@ -43,7 +43,7 @@ Tons of thanks to Andrew Morgan @andyjmorgan for collaboration on this process.
   - Fixed Issue when creating pool and immediately importing into it
     - 400 errors
   - Optimized create manual pool flow
-  - Added the name of the call that is made to the API for easier troubleshooting
+  - Added the name of the call that is made to the API to message box and log for easier troubleshooting
 
 #### Overview
 
