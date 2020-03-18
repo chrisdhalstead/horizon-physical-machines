@@ -20,7 +20,7 @@ Tons of thanks to Andrew Morgan @andyjmorgan for collaboration on this process.
     - 400 errors
   - Optimized create manual pool flow
   - Added the name of the call that is made to the API to message box and log for easier troubleshooting
-- <a id="raw-url" href="https://raw.githubusercontent.com/chrisdhalstead/project/master/filename">Download FILE</a>
+- <a id="raw-url" href="https://raw.githubusercontent.com/chrisdhalstead/horizon-physical-machines/master/HorizonUnmanagedMachines.exe">Download the latest version of HorizonUnmanagedMachines.exe</a>
 
 #### Demo / Walkthrough
 
