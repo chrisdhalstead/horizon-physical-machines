@@ -39,6 +39,11 @@ Tons of thanks to Andrew Morgan @andyjmorgan for collaboration on this process.
     - After added to pool
   - Fixed AD Caching - note:  It will pause for 3 seconds while that query is run
   - If a user is not found, but the desktop is - the desktop will be added to the pool
+- 1.5 - March 18, 2020
+  - Fixed Issue when creating pool and immediately importing into it
+    - 400 errors
+  - Optimized create manual pool flow
+  - Added the name of the call that is made to the API for easier troubleshooting
 
 #### Overview
 
