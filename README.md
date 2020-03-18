@@ -1,7 +1,7 @@
 # horizon-physical-machines
 App to quickly add Physical Machines into VMware Horizon Manual Pool
 
-**<u>There is no support for this tool - it is provided as is.</u>**
+###### <u>***There is no support for this tool - it is provided as is***</u>
 
 Please provide any feedback directly to me - my contact information: 
 
@@ -9,9 +9,7 @@ Chris Halstead - Staff Architect, VMware
 Email: chalstead@vmware.com  
 Twitter: @chrisdhalstead  
 
-March 15, 2020
-
-Tons of thanks to Andrew Morgan @andyjmorgan for collaboration on this process.
+Updated March 18, 2020
 
 #### Latest Version
 
