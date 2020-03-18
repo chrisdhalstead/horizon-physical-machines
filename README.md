@@ -26,7 +26,7 @@ Tons of thanks to Andrew Morgan @andyjmorgan for collaboration on this process.
 
 Opens in YouTube
 
-[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=tqlcWbuBRrs)
+[![Alt text](https://i.ytimg.com/vi/tqlcWbuBRrs/maxresdefault.jpg)](https://www.youtube.com/watch?v=tqlcWbuBRrs)
 
 #### Overview
 
