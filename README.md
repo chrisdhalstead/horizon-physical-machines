@@ -13,37 +13,18 @@ March 15, 2020
 
 Tons of thanks to Andrew Morgan @andyjmorgan for collaboration on this process.
 
-#### Change Log
+#### Latest Version
 
-- 1.0 - March 15, 2020 
-  - Initial Release
-- 1.1 - March 16, 2020
-  - Fixed an issue where the CSV contains the quote character - if found, remove it.
-- 1.2 - March 16, 2020
-  - Prevent a user from being assigned two machines in a pool
-  - Fix some API queries that sometimes caused 400 errors
-  - Other UI fixes
-- 1.3 - March 17, 2020
-  - Fix when usernames are similar (ex chalstead and chalstead-adm) - before it would grab the first one that matched (chalstead in this case) causing issues
-  - Cache 2000 domain users to speed up entitlement 
-    - 2000 is the maximum that can be returned (no pagination support).  
-    - The 7.12 REST API may be able to return more - looking into that as a option
-  - Persist connection server name, username and domain name in the registry
-  - More logging detail
-  - Optimized adding machines and entitlements 
-  - UI Fixes
-  - Hid Pool Details dialog as results were inconsistent across versions of Horizon 
-- 1.4 - March 17, 2020
-  - Fixed "An item with the same key has already been added" error
-  - Generate the new machine name Base64 value directly without making an expensive API call
-    - After added to pool
-  - Fixed AD Caching - note:  It will pause for 3 seconds while that query is run
-  - If a user is not found, but the desktop is - the desktop will be added to the pool
 - 1.5 - March 18, 2020
   - Fixed Issue when creating pool and immediately importing into it
     - 400 errors
   - Optimized create manual pool flow
   - Added the name of the call that is made to the API to message box and log for easier troubleshooting
+- <a id="raw-url" href="https://raw.githubusercontent.com/chrisdhalstead/project/master/filename">Download FILE</a>
+
+#### Demo / Walkthrough
+
+[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=tqlcWbuBRrs)
 
 #### Overview
 
@@ -93,7 +74,6 @@ Please review the logfile that was created after an import - there are lots of d
 
    The app will create a manual pool that is configured for use with unregistered machines.  Click OK to continue.
    
-
 5. Enter a Pool Name, and optionally a display name.  This is what users will see if the Horizon Client.  If you leave it blank, users will see the name of the pool.  Select a default protocol (users will be able to change on the client), select an access group and choose if you would like HTML access and Session Collaboration (Blast only).   Click ok to create the pool.   Click OK twice to confirm pool creation and on the box to show the pool is complete.  
 
    ![CreatePool](Images/CreatePool.PNG)
@@ -157,6 +137,38 @@ Install string for installing the Horizon Agent as unmanaged and register to a c
 
 `VMware-Horizon-Agent-x86_64-7.XX.0-XXXX.exe /s /v” /qn VDM_VC_MANAGED_AGENT=0 VDM_SERVER_NAME=<connserver> VDM_SERVER_USERNAME=<domain\username> VDM_SERVER_PASSWORD=<pw>”`
 
+#### Change Log
+
+- 1.0 - March 15, 2020 
+  - Initial Release
+- 1.1 - March 16, 2020
+  - Fixed an issue where the CSV contains the quote character - if found, remove it.
+- 1.2 - March 16, 2020
+  - Prevent a user from being assigned two machines in a pool
+  - Fix some API queries that sometimes caused 400 errors
+  - Other UI fixes
+- 1.3 - March 17, 2020
+  - Fix when usernames are similar (ex chalstead and chalstead-adm) - before it would grab the first one that matched (chalstead in this case) causing issues
+  - Cache 2000 domain users to speed up entitlement 
+    - 2000 is the maximum that can be returned (no pagination support).  
+    - The 7.12 REST API may be able to return more - looking into that as a option
+  - Persist connection server name, username and domain name in the registry
+  - More logging detail
+  - Optimized adding machines and entitlements 
+  - UI Fixes
+  - Hid Pool Details dialog as results were inconsistent across versions of Horizon 
+- 1.4 - March 17, 2020
+  - Fixed "An item with the same key has already been added" error
+  - Generate the new machine name Base64 value directly without making an expensive API call
+    - After added to pool
+  - Fixed AD Caching - note:  It will pause for 3 seconds while that query is run
+  - If a user is not found, but the desktop is - the desktop will be added to the pool
+- 1.5 - March 18, 2020
+  - Fixed Issue when creating pool and immediately importing into it
+    - 400 errors
+  - Optimized create manual pool flow
+  - Added the name of the call that is made to the API to message box and log for easier troubleshooting
+
 #### Tips
 
 - Windows 7 may work with the RDP protocol
@@ -164,6 +176,3 @@ Install string for installing the Horizon Agent as unmanaged and register to a c
     - https://kb.vmware.com/s/article/1034158
     - https://kb.vmware.com/s/article/67832
 
-#### Demo
-
-Coming...
