@@ -24,7 +24,7 @@ Tons of thanks to Andrew Morgan @andyjmorgan for collaboration on this process.
 
 #### Demo / Walkthrough
 
-[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=tqlcWbuBRrs)
+[![](.\images\Login.PNG)](https://www.youtube.com/watch?v=tqlcWbuBRrs)
 
 #### Overview
 
