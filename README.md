@@ -9,17 +9,15 @@ Chris Halstead - Staff Architect, VMware
 Email: chalstead@vmware.com  
 Twitter: @chrisdhalstead  
 
-Updated March 18, 2020
+Updated March 19, 2020
 
 ------
 
 #### Latest Version
 
-- 1.5 - March 18, 2020
-  - Fixed Issue when creating pool and immediately importing into it
-    - 400 errors
-  - Optimized create manual pool flow
-  - Added the name of the call that is made to the API to message box and log for easier troubleshooting
+- 1.6 - March 19, 2020
+  - Added button to export registered machines to .csv
+    - Machines not assigned to a pool
 - <a id="raw-url" href="https://raw.githubusercontent.com/chrisdhalstead/horizon-physical-machines/master/HorizonUnmanagedMachines.exe">Download the latest version of HorizonUnmanagedMachines.exe</a>
 
 #### Demo / Walkthrough
