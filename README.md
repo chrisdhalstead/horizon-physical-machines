@@ -133,7 +133,7 @@ Please review the logfile that was created after an import - there are lots of d
 
 #### **Installing Horizon Agent on Physical**
 
-You can use the [tool that Andrew Morgan developed](https://github.com/andyjmorgan/HorizonRemotePCHelperScripts) that installs the Agent and creates the .csv file that this utility needs or use any tool for distributing software such as SCCM.  This app will push the Horizon Agent and install it via PSRemoting and will adjust power policies.  It is in active development and he is adding wake on lan in a future release.  
+You can use the [tool that Andrew Morgan developed](https://github.com/andyjmorgan/HorizonRemotePCHelperScripts) that installs the Agent and creates the .csv file that this utility needs or use any tool for distributing software such as SCCM.  This app will push the Horizon Agent and install it via PSRemoting and will adjust power policies.  It is in active development and he is adding wake on lan in a future release.  [Andrew](https://twitter.com/andyjmorgan) was awesome to brainstorm with on trying to tackle this process.
 
 Install string for installing the Horizon Agent as unmanaged and register to a connection server:
 
