@@ -20,6 +20,8 @@ Updated March 19, 2020
     - Machines not assigned to a pool
 - <a id="raw-url" href="https://raw.githubusercontent.com/chrisdhalstead/horizon-physical-machines/master/HorizonUnmanagedMachines.exe">Download the latest version of HorizonUnmanagedMachines.exe</a>
 
+------
+
 #### Demo / Walkthrough
 
 Opens in YouTube
