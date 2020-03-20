@@ -1,5 +1,5 @@
 # horizon-physical-machines
-App to quickly add Physical Machines into VMware Horizon Manual Pool
+App to quickly add Physical Machines into a VMware Horizon Manual Pool and entitle users
 
 ***<u>There is no support for this tool - it is provided as-is</u>***
 
