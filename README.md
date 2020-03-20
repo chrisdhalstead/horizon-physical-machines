@@ -9,15 +9,14 @@ Chris Halstead - Staff Architect, VMware
 Email: chalstead@vmware.com  
 Twitter: @chrisdhalstead  
 
-Updated March 19, 2020
+Updated March 20, 2020
 
 ------
 
 #### Latest Version
 
-- 1.6 - March 19, 2020
-  - Added button to export registered machines to .csv
-    - Machines not assigned to a pool
+- 1.7 - March 20, 2020
+  - Added ability to right-click the results pane to export the results of importing machines and entitling users to a CSV file
 - <a id="raw-url" href="https://raw.githubusercontent.com/chrisdhalstead/horizon-physical-machines/master/HorizonUnmanagedMachines.exe">Download the latest version of HorizonUnmanagedMachines.exe</a>
 
 ------
@@ -131,6 +130,14 @@ Please review the logfile that was created after an import - there are lots of d
 
 11. Additional manual pools can be created at any time by clicking the "Create Manual Pool" Button.
 
+12. You can export the results returned to a CSV to review the process by right-clicking the results pane
+
+![Horizon_ents](Images/export1.PNG)
+
+ ![Horizon_ents](Images/export2.PNG)
+
+
+
 #### **Installing Horizon Agent on Physical**
 
 You can use the [tool that Andrew Morgan developed](https://github.com/andyjmorgan/HorizonRemotePCHelperScripts) that installs the Agent and creates the .csv file that this utility needs or use any tool for distributing software such as SCCM.  This app will push the Horizon Agent and install it via PSRemoting and will adjust power policies.  It is in active development and he is adding wake on lan in a future release.  [Andrew](https://twitter.com/andyjmorgan) was awesome to brainstorm with on trying to tackle this process.
@@ -170,6 +177,9 @@ Install string for installing the Horizon Agent as unmanaged and register to a c
     - 400 errors
   - Optimized create manual pool flow
   - Added the name of the call that is made to the API to message box and log for easier troubleshooting
+- 1.6 - March 19, 2020
+  - Added button to export registered machines to .csv
+    - Machines not assigned to a pool
 
 #### Tips
 
