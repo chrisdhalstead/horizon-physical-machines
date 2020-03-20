@@ -132,9 +132,9 @@ Please review the logfile that was created after an import - there are lots of d
 
 12. You can export the results returned to a CSV to review the process by right-clicking the results pane
 
-![export1](Images/export1.PNG)
+![export1](Images/export1.png)
 
- ![Export2](Images/export2.PNG)
+ ![Export2](Images/export2.png)
 
 
 
