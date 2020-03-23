@@ -15,8 +15,10 @@ Updated March 20, 2020
 
 #### Latest Version
 
-- 1.7 - March 20, 2020
-  - Added ability to right-click the results pane to export the results of importing machines and entitling users to a CSV file
+- 1.8 - March 23, 2020
+  - Allows user to continue if the Horizon Server certificate has expired
+    - Click yes to continue 
+    - Before would not allow the user to proceed.
 - <a id="raw-url" href="https://raw.githubusercontent.com/chrisdhalstead/horizon-physical-machines/master/HorizonUnmanagedMachines.exe">Download the latest version of HorizonUnmanagedMachines.exe</a>
 
 ------
@@ -180,6 +182,8 @@ Install string for installing the Horizon Agent as unmanaged and register to a c
 - 1.6 - March 19, 2020
   - Added button to export registered machines to .csv
     - Machines not assigned to a pool
+- 1.7 - March 20, 2020
+  - Added ability to right-click the results pane to export the results of importing machines and entitling users to a CSV file
 
 #### Tips
 
